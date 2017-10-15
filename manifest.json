@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "GameeCheat",
+  "description": "Extension for Submiting Fake Scores on Gamee Games.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+	"default_title": "Gamee Cheat Extension"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
